@@ -554,7 +554,7 @@ MonoBehaviour:
       m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: d7ccfa3b-8ac4-44ac-ba7f-124b2e5ce50c
+      m_Id: b4e77634-91c2-40cc-a535-a4028382a397
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -578,7 +578,7 @@ MonoBehaviour:
       m_Name: Select Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: dff847f5-f278-481d-83a0-65bb4d04d60c
+      m_Id: dce80bd0-0536-468b-8a19-89afe0067168
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -602,7 +602,7 @@ MonoBehaviour:
       m_Name: Activate Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 4dba8234-becc-4e33-bb66-b4d7ea162356
+      m_Id: ddfc9c6d-b172-44ab-8a01-f3637b67079d
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -626,7 +626,7 @@ MonoBehaviour:
       m_Name: UI Press Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 3a6a0f56-52f8-4c49-99a5-dee74384ceb0
+      m_Id: 883c9c55-f41e-4de5-8358-9eed817b3f1f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1888,7 +1888,7 @@ MonoBehaviour:
     m_SingletonActionBindings:
     - m_Name: 
       m_Id: 5d47a5d6-2338-430b-beeb-6d5394fee907
-      m_Path: <XRInputV1::Oculus::OculusTouchControllerLeft>{RightHand}/primarybutton
+      m_Path: <OculusTouchController>{RightHand}/primaryButton
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -1898,7 +1898,7 @@ MonoBehaviour:
   OnPress:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1904441291}
+      - m_Target: {fileID: 1904441293}
         m_TargetAssemblyTypeName: ToggleRay, Assembly-CSharp
         m_MethodName: ActivateRay
         m_Mode: 1
@@ -1913,7 +1913,7 @@ MonoBehaviour:
   OnRelease:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1904441291}
+      - m_Target: {fileID: 1904441293}
         m_TargetAssemblyTypeName: ToggleRay, Assembly-CSharp
         m_MethodName: DeactivateRay
         m_Mode: 1
